@@ -49,7 +49,7 @@ const App = () => {
           <h1 className="App-title">Welcome to Recipe Roulette!</h1>
         </header>
         {recipes.map(food => (
-          <Food title = {food.recipe.label} totalTime = {food.recipe.totalTime} image = {food.recipe.image} ingredients = {food.recipe.ingredients} source = {food.recipe.url}/>
+          <Food title = {food.recipe.label} image = {food.recipe.image} ingredients = {food.recipe.ingredients} source = {food.recipe.url}/>
           // <Food title = {Food.recipe.label} totalTime = {Food.recipe.totalTime} image = {Food.recipe.image} />
         ))}
       </div>
