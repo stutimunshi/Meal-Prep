@@ -1,6 +1,7 @@
 import React, { useEffect, useState} from "react";
 import Food from "./Food"
 import './App.css';
+import style from './food.module.css';
 
 const App = () => {
   const API_ID = "1d2d9dca"
@@ -38,6 +39,9 @@ const App = () => {
   }
     return (
       <div className="App">
+          <img className= "logo" 
+            src="./logo.png" alt="logo"
+          />
         <form onSubmit = {getSearch} className="search-form">
           <input 
             className="search-bar" 
@@ -50,9 +54,7 @@ const App = () => {
             Search
           </button>
         </form>
-        <header className="App-header">
-          <h1 className="App-title">Welcome to Recipe Roulette!</h1>
-        </header>
+        
         <div className="recipes">
         {recipes.map(food => (
           <Food 
