@@ -41,7 +41,7 @@ const App = () => {
         <form onSubmit = {getSearch} className="search-form">
           <input 
             className="search-bar" 
-            type="text" 
+            type="text" placeholder = "Search Ingredient" 
             value = {search} 
             onChange ={searchUpdate}
           />
