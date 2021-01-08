@@ -8,7 +8,7 @@
 }
 
 .search-form{
-  min-height: 50vh;
+  min-height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,8 +34,9 @@
   flex-wrap: wrap;
 }
 
-
-
-  
+.logo{
+  position: relative;
+  right: 50
+}
 
 
