@@ -1,10 +1,14 @@
 .App{
   min-height: 100vh;
-  background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+  background-color: white;
+}
+
+.App-title{
+  text-align: center;
 }
 
 .search-form{
-  min-height: 10vh;
+  min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,6 +18,14 @@
   width: 50%;
   border: none;
   padding: 10px;
+  background-color: #EAEAEA;
+}
+
+.search-button{
+  background: #D0312D;
+  border: none;
+  padding: 10px 20px;
+  color: white;
 }
 
 .recipes{
@@ -22,6 +34,8 @@
   flex-wrap: wrap;
 }
 
-.App-title{
-  text-align: center;
-}
+
+
+  
+
+
