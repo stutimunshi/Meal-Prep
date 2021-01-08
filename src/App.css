@@ -1,4 +1,5 @@
 
+
 .App{
   min-height: 100vh;
   background-color: white;
@@ -19,8 +20,13 @@
   width: 50%;
   border: none;
   padding: 10px;
+<<<<<<< HEAD
   background-color: #EAEAEA;
+=======
+  color:aquamarine
+>>>>>>> a3ef95328f791d272a3379a6a2780e1e50b4f8b9
 }
+
 
 .search-button{
   background: #D0312D;
