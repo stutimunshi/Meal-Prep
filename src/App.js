@@ -5,26 +5,23 @@ import './App.css';
 const App = () => {
   const API_ID = "1d2d9dca"
   const API_KEY = "af7a6021e072d1ac2b7463b132cf1efa";
-  // const API_KEY = "97ca8d43e4a249c08d36675136e074c0"
+
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
-  const [query, setQuery] = useState(``)
+  const [query, setQuery] = useState('')
 
   useEffect(() => {
     getRecipe();
-  }, [query]);
+  }, [query]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const getRecipe = async () => {
-    // const recipeName = e.target.elements.recipeName.value;
-    // e.preventDefault();
+
     const api_call = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${API_ID}&app_key=${API_KEY}`);
-    // const api_call = await fetch(`https://api.spoonacular.com/recipes/search?apiKey=${API_KEY}&number=1&query=${query}`);
-    // console.log(recipeName)
+
 
     const results = await api_call.json();
-    // this.setState({ recipes: results.recipes })
-    // console.log(this.state.recipes)
+
     setRecipes(results.hits);
     console.log(results.hits);
     
@@ -48,10 +45,17 @@ const App = () => {
         <header className="App-header">
           <h1 className="App-title">Welcome to Recipe Roulette!</h1>
         </header>
+        <div className="recipes">
         {recipes.map(food => (
-          <Food title = {food.recipe.label} image = {food.recipe.image} ingredients = {food.recipe.ingredients} source = {food.recipe.url}/>
-          // <Food title = {Food.recipe.label} totalTime = {Food.recipe.totalTime} image = {Food.recipe.image} />
+          <Food 
+            title = {food.recipe.label} 
+            image = {food.recipe.image} 
+            ingredients = {food.recipe.ingredients} 
+            source = {food.recipe.url}
+          />
+
         ))}
+        </div>
       </div>
     );
 }
