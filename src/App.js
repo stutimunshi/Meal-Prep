@@ -39,8 +39,15 @@ const App = () => {
     return (
       <div className="App">
         <form onSubmit = {getSearch} className="search-form">
-          <input className="search-button" type="text" value = {search} onChange ={searchUpdate}/>
-          <button className="search-button" type="submit">Search</button>
+          <input 
+            className="search-bar" 
+            type="text" 
+            value = {search} 
+            onChange ={searchUpdate}
+          />
+          <button className="search-button" type="submit">
+            Search
+          </button>
         </form>
         <header className="App-header">
           <h1 className="App-title">Welcome to Recipe Roulette!</h1>
