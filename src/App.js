@@ -40,15 +40,13 @@ const App = () => {
     setSearch(e.target.value)
   }
     return (
-<<<<<<< HEAD
       <div className="App">
         <img class="banner" src="./logo.png" alt = ""/>
         {/* <h1 className="App-title">Welcome to Recipe Roulette!</h1> */}
-=======
+
       <div>
           <img className= "logo" src="./cheflogo3.png" alt="logo"/>
 
->>>>>>> 0f20b5188b7f4ba217aa8ee6c6cd529f68c5870a
         <form onSubmit = {getSearch} className="search-form">
           <input className="search-bar" type="text" placeholder="Type in your ingredient here..." value = {search} onChange ={searchUpdate}/>
           <button className="search-button" type="submit">Search</button>
