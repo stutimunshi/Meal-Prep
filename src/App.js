@@ -40,7 +40,7 @@ const App = () => {
     return (
       <div className="App">
           <img className= "logo" 
-            src="./logo.png" alt="logo"
+            src="./cheflogo.png" alt="logo"
           />
         <form onSubmit = {getSearch} className="search-form">
           <input 
