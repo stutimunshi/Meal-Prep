@@ -42,8 +42,6 @@ const App = () => {
     return (
       <div className="App">
         <img class="banner" src="./logo.png" alt = ""/>
-        {/* <h1 className="App-title">Welcome to Recipe Roulette!</h1> */}
-
       <div>
           <img className= "logo" src="./cheflogo3.png" alt="logo"/>
 
@@ -58,6 +56,7 @@ const App = () => {
           <Food title = {food.recipe.label} image = {food.recipe.image} ingredients = {food.recipe.ingredients} source = {food.recipe.url}/>
           // <Food title = {Food.recipe.label} totalTime = {Food.recipe.totalTime} image = {Food.recipe.image} />
         ))}
+      </div>
       </div>
     );
 }
