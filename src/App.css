@@ -1,12 +1,12 @@
-.App{
-  min-height: 100vh;
-  background-color: white;
-}
+.logo {
 
-.App-title{
-  text-align: center;
+  justify-content: center;
+  display: block;
+  align-items: center;
+  margin: auto;
+ 
+ 
 }
-
 .search-form{
   min-height: 10vh;
   display: flex;
@@ -33,5 +33,4 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
 

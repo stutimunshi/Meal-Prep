@@ -38,10 +38,9 @@ const App = () => {
     setSearch(e.target.value)
   }
     return (
-      <div className="App">
-          <img className= "logo" 
-            src="./cheflogo.png" alt="logo"
-          />
+      <div>
+          <img className= "logo" src="./cheflogo3.png" alt="logo"/>
+
         <form onSubmit = {getSearch} className="search-form">
           <input 
             className="search-bar" 
