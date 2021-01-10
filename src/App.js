@@ -40,8 +40,7 @@ const App = () => {
     setSearch(e.target.value)
   }
     return (
-      <div className="App">
-        <img class="banner" src="./logo.png" alt = ""/>
+    
       <div>
           <img className= "logo" src="./cheflogo3.png" alt="logo"/>
 
@@ -57,7 +56,7 @@ const App = () => {
           // <Food title = {Food.recipe.label} totalTime = {Food.recipe.totalTime} image = {Food.recipe.image} />
         ))}
       </div>
-      </div>
+      
     );
 }
 
