@@ -7,10 +7,10 @@ As 3 university students who plan on living together, we wanted to make sure tha
 Based on any available ingredients that the user provides, this web app generates a list of recipe ideas using them. 
 
 # Using Chef-o-matic
-Initially, you're greeted with the Chef-o-matic logo, as well as a search bar underneath. Fill in your ingredients in the search bar!
+Initially, you're greeted with the Chef-o-matic logo, as well as a search bar underneath. 
 ![mealprep.github.io](https://github.com/stutimunshi/mealprep.github.io/blob/main/public/Landing.png)
 
-Fill in your ingredients in the search bar!
+Next, fill in your ingredients in the search bar!
 ![mealprep.github.io](https://github.com/stutimunshi/mealprep.github.io/blob/main/public/Ingredients.png)
 
 Once you fill them in, hit the search button to see some recipe suggestions.
