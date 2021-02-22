@@ -7,4 +7,4 @@ As 3 university students who plan on living together, we wanted to make sure tha
 Based on any available ingredients that the user provides, this web app generates a list of recipe ideas using them. 
 
 # Landing Page
-![mealprep.github.io](https://github.com/stutimunshi/mealprep.github.io/public/Landing.png)
+![mealprep.github.io](https://github.com/stutimunshi/mealprep.github.io/blob/main/public/Landing.png)
